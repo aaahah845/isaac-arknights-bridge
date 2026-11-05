@@ -1,0 +1,33 @@
+{
+  "release": "0.4.10-installer-preview.1",
+  "date": "2026-11-05",
+  "installerUnitTests": 10,
+  "existingBridgeUnitTests": 55,
+  "portableRuntimeImports": true,
+  "runtimeSysPathOnlyPackageDirectories": true,
+  "sourceBundleBuildWithPipAndCSharpCompilation": true,
+  "freshServerFetchedPinnedArchiveAndNativeAdapter": true,
+  "arknightsInstallFromOfficialClient": true,
+  "requiredStaticSdkConfigurationIncluded": true,
+  "installedRgonCopyPathTested": true,
+  "noRgonBaseOnlyAutomaticInstallTested": true,
+  "noRgonBaseOnlyInstallSeconds": 29.79,
+  "officialDeltaNativeEngineAndPatchedResourcesMatch": true,
+  "privateIsaacProfileAndNewSaveCreated": true,
+  "freshNativeGameStartedWithOnePlayer": true,
+  "freshBridgeUdpConnected": true,
+  "unicodeSpaceApostropheDestinationsTested": true,
+  "unicodeModEnumerationFixedWithPrivateAsciiAlias": true,
+  "compiledStartExeLaunchedAndConnected": true,
+  "originalCriticalClientHashesUnchanged": true,
+  "containsGameExecutables": false,
+  "containsDeveloperProfilesOrAccounts": false,
+  "crossMachineCleanWindowsTested": false,
+  "newInstallerCompletedArknightsBattle": false,
+  "limitations": [
+    "Only the exact game and component versions in payload/manifest.json are supported.",
+    "Validated on this Windows machine using separate copies, not on another clean machine.",
+    "Arknights first-use legal prompts require the user to review and decide.",
+    "No new full battle or Boss/item-combination regression run was performed for this packaging change."
+  ]
+}

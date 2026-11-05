@@ -1,0 +1,47 @@
+{
+  "format": 1,
+  "release": "0.4.10-installer-preview.1",
+  "arknights": {
+    "version": "2.7.91",
+    "resourceVersion": "26-10-29-15-35-15-96278206",
+    "files": {
+      "Arknights.exe": "5f03c3c7260668b9929b5e0fa85087d318f2529e87efedc77769ef7a91615993",
+      "GameAssembly.dll": "cf7956bf88a61986859ef55c026d231713e2d12cf69ffd9a19779ab491cf76ff",
+      "hgdownloadsdk.dll": "94d9b238e4b8e46c52cd3526d1897d0d036b4ad18a7ad9aba25596a0b4fbae2c"
+    }
+  },
+  "isaac": {
+    "version": "Repentance+ J273",
+    "repentogon": "1.1.3",
+    "nativeFiles": {
+      "isaac-ng.exe": "ceb598b4e5e03dabbd2da6ea322a9aa6ffc66fcc377aeea4391f008403b7faa4",
+      "libzhl.dll": "de7f2987fe124c4af56f714759cc5db311a60771170e7607851ef102bb02ae76",
+      "zhlLoader.dll": "a2e79a8b2229997e8e2ac375c5a3ef12f9faf3a76f397853615aef4b2c17d218",
+      "zhlREPENTOGON.dll": "5579b2f0ccb83c695f96af4e1c657f1f3a4e5b24441b4dac81d9289043cb3cc8",
+      "Lua5.3.3r.dll": "5b6b7e7bd0f51084c78eb9bdde320abe28f5cc1d28e379e58b00786b6c0f60cc"
+    },
+    "baseExeSha256": "3bdfc8bae0dc7e334b76009d0ad45dfbb16ee5f00c06ffbc3a0094e34d44616b",
+    "patchedFiles": {
+      "resources/packed/afterbirthp.a": "6b0a9792809f5a35b99d6912449eb73ad8cb84b0cea769a703361e100d38c8fd",
+      "resources/scripts/enums.lua": "6ef9a12c5da35c634c61c56162602cf797a7eb27abbe8cc0c65e8d09eddda83d",
+      "resources/scripts/json.lua": "30f33a7250dd161a7e49b76cd9ee56fc0a00f06c7cc5ecbf4b906be65d454810",
+      "resources/scripts/main.lua": "1656ee9014aec580404e5862ee3941cd4c188c1192308ff770e44408782d2bba"
+    }
+  },
+  "components": {
+    "server": {
+      "url": "https://codeload.github.com/pfyy/OpenBachelorS/zip/86099996610c3f3b5dc133bdf090e7c3848ee0fe",
+      "sha256": "8bf391a6e8f2075ff1e217dd00fcf9b19e66d69ac5b34459195a226a741cfe0a",
+      "commit": "86099996610c3f3b5dc133bdf090e7c3848ee0fe"
+    },
+    "native": {
+      "url": "https://raw.githubusercontent.com/pfyy/OpenBachelorC/9cf2bf92249ee008e28b74f8c54d3f0d55786737/rel/native.js",
+      "sha256": "2c4bc87b976f0a2e3307287971385fba068f510edaa266ceaeaa2ed0b248dd29",
+      "commit": "9cf2bf92249ee008e28b74f8c54d3f0d55786737"
+    },
+    "repentogon": {
+      "url": "https://github.com/TeamREPENTOGON/REPENTOGON/releases/download/1.1.3/REPENTOGON.zip",
+      "sha256": "80062fc262b5007d7d363455ffadbe0d7f190da1eed9fd7f05460ee7ae55ef9c"
+    }
+  }
+}

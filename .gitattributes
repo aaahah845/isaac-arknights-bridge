@@ -1,0 +1,16 @@
+* text=auto
+*.py text eol=lf
+*.js text eol=lf
+*.lua text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.txt text eol=lf
+*.yml text eol=lf
+*.exe binary
+*.dll binary
+*.bin binary
+*.zip binary
+*.xz binary
+*.png binary
+components/** linguist-vendored
+licenses/** linguist-vendored

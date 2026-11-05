@@ -1,0 +1,11 @@
+/runtime/
+/work/
+/games/
+/cache/
+/install-state.json
+*.log
+*.pid
+*.lock
+__pycache__/
+*.pyc
+*.download
